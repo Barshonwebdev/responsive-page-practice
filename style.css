@@ -72,3 +72,37 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
+
+/* top courses style  */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course .course-image img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    font-size: 15px;
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    display: flex;
+    background-color: #ff4a5f77;
+    color: #FF4A60;
+    border-radius: 15px;
+    padding: 5px;
+}
